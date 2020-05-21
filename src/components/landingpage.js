@@ -2,7 +2,10 @@ import React, { Component } from "react";
 import "./landingpage.css";
 
 export class landingpage extends Component {
+
+
   render() {
+
     return (
       <div>
         <div class="container main-info-section">

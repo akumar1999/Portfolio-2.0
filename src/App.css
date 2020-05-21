@@ -1,38 +1,134 @@
-.App {
-  text-align: center;
-}
+/* navbar styling */
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,100,400');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .navigationbar li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
   }
-  to {
-    transform: rotate(360deg);
+
+  .navigationbar h2 a {
+    text-decoration: none;
+    color: white;
   }
+
+  html {
+    scroll-behavior: smooth;
+  }
+  
+
+  .navbar-header {
+    width: 100%;
+    height: 100%;
+    background-color: dodgerblue;
+    background-size: cover;
+  }
+
+  .container-navbar {
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .navigationbar {
+    padding-top: 0.5rem; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 1rem;
+  }
+
+  .navigationbar img {
+    margin-top: 5px;
+    font-weight: bold;
+    transform: translateX(-100rem);
+    animation: slideIn 0.5s forwards;
+  }
+
+
+  .navigationbar ul {
+    display: flex;
+  }
+
+  .navigationbar ul li {
+    list-style: none;
 }
+
+
+  
+  .navigationbar ul li a {
+    padding: 1rem 0;
+    margin-left: 3rem;
+    position: relative;
+    letter-spacing: 2px;
+  }
+  
+  .navigationbar ul li a:last-child {
+    margin-right: 0;
+  }
+  
+  .navigationbar ul li a:before,
+  .navigationbar ul li a:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: crimson;
+    left: 0;
+    transform: scaleX(0);
+    transition: all 0.5s;
+  }
+  
+  .navigationbar ul li a:before {
+    top: 0;
+    transform-origin: left;
+  }
+  
+  .navigationbar ul li a:after {
+    bottom: 0;
+    transform-origin: right;
+  }
+  
+  .navigationbar ul li a:hover::before,
+  .navigationbar ul li a:hover::after {
+    transform: scaleX(1);
+  }
+
+
+@keyframes slideIn {
+    from {
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+
+  body {
+    overflow-x: hidden;
+    font-family: "Raleway", sans-serif;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+    background: url(./assets/technical.png) no-repeat center center / auto;
+     background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .navigationbar ul li {
+    list-style: none;
+    transform: translateX(100rem);
+    animation: slideIn 0.5s forwards;
+    justify-content: space-between;
+  }
+
+
+  

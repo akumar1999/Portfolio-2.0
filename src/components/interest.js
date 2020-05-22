@@ -1,9 +1,7 @@
 import React, { Component } from "react";
-import './blog.css'
-import Interest from "./interest";
-import Background from "./background";
+import Cards from "./cards/cards";
 
-export class blog extends Component {
+export class Interest extends Component {
   render() {
     return (
       <div>
@@ -13,17 +11,16 @@ export class blog extends Component {
               <a href="/Interest">Interests</a>
             </li>
             <li class="tab">
-              <a href="/Background">
-                Background
-              </a>
+              <a href="/Background">Background</a>
             </li>
           </ul>
-        
         </div>
-        
+        <div>
+          <Cards />
+        </div>
       </div>
     );
   }
 }
 
-export default blog;
+export default Interest;

@@ -5,6 +5,8 @@ import landingpage from './landingpage';
 import blog from './blog';
 import projects from './projects';
 import resume from './resume';
+import Interest from './interest';
+import Background from './background';
 
 const Main = () => (
   <Router>
@@ -13,6 +15,8 @@ const Main = () => (
     <Route path="/blog" component={blog} />
     <Route path="/projects" component={projects} />
     <Route path="/resume" component={resume} />
+    <Route path="/interest" component={Interest}/>
+    <Route path="/background" component={Background}/>
   </Switch>
   </Router>
 )

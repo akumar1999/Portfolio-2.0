@@ -5,7 +5,6 @@ import landingpage from './landingpage';
 import blog from './blog';
 import projects from './projects';
 import resume from './resume';
-import {App} from '../App';
 
 const Main = () => (
   <Router>
@@ -128,17 +127,17 @@ class TypeWriter {
 }
 
 
-// Init On DOM Load
-document.addEventListener('DOMContentLoaded', init);
+// // Init On DOM Load
+// document.addEventListener('DOMContentLoaded', init);
 
-// Init App
-function init() {
-  const txtElement = document.querySelector('.txt-type');
-  const words = JSON.parse(txtElement.getAttribute('data-words'));
-  const wait = txtElement.getAttribute('data-wait');
-  // Init TypeWriter
-  new TypeWriter(txtElement, words, wait);
-}
+// // Init App
+// function init() {
+//   const txtElement = document.querySelector('.txt-type');
+//   const words = JSON.parse(txtElement.getAttribute('data-words'));
+//   const wait = txtElement.getAttribute('data-wait');
+//   // Init TypeWriter
+//   new TypeWriter(txtElement, words, wait);
+// }
 
 
 

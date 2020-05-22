@@ -1,0 +1,14 @@
+.nav-content {
+    background-color: royalblue;
+  width: 100% !important;
+  height: 100% !important;
+  background-size: cover !important;
+  text-transform: uppercase;
+  text-align: center;
+  color: black !important;
+}
+
+ .nav-content ul li a {
+    text-decoration: none;
+    font-weight: bold;  
+  }

@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
+import SingleProject from './projectcard/singleproject'
 
 export class projects extends Component {
     render() {
         return (
             <div>
-                <h1>Proejcts</h1>
+                <SingleProject/>
             </div>
         )
     }

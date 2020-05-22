@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import BackgroundCard from './cards/backgroundCard'
 
 export class Background extends Component {
   render() {
@@ -15,7 +16,7 @@ export class Background extends Component {
           </ul>
         </div>
         <div>
-          
+        <BackgroundCard/>
         </div>
       </div>
     );

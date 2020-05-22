@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: center;
     height: 100%;
-    padding: 0 1rem;
+    padding: 0 2rem;
   }
 
 
@@ -14,7 +14,7 @@
   }
 
   .text h1 {
-    color: blueviolet;
+    color: black;
     font-size: 3rem;
     cursor: context-menu;
   }
@@ -26,8 +26,9 @@
 
   .text h2 {
     font-size: 1rem;
-    color: blueviolet;
+    color: crimson;
     margin-right: 5px;
+    font-weight: bold;
   }
 /* cursor */
   .txt-type > .txt {
@@ -115,18 +116,18 @@
   }
 
   .media ul li:nth-child(1) a:hover {
-    background-color: deepskyblue;
+    background-color: darkgray;
   }
 
   .media ul li:nth-child(2) a:hover {
-    background-color: deepskyblue;
+    background-color: darkgray;
   }
 
   .media ul li:nth-child(3) a:hover {
-    background-color: deepskyblue;
+    background-color: darkgray;
   }
   .media ul li:nth-child(4) a:hover {
-    background-color: deepskyblue;
+    background-color: darkgray;
   }
 
   @media(min-width: 1200px) {

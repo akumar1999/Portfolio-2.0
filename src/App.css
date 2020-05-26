@@ -115,4 +115,64 @@
   }
 
 
+  .sidenav {
+    background-color: whitesmoke !important;
+    background-size: cover !important;
+    text-transform: uppercase;
+
+  }
+
+  .sidenav li a:hover {
+    background-color: dimgray;
+  }
+
+  .background {
+    height: 40rem;
+    width: 60rem;
+  }
+
+  .sidenav li a {
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+
+.sidenav .list {
+  margin-top: 10px;
+
+}
+
+  .sidenav span {
+    font-weight: bold;
+  }
+
+  .sidenav a{
+
+    text-decoration: none;
+    
+  }
+
+
+.circle {
+  margin-top: 10px;
+}
+
+
+
+  
+  .sidenav span:hover{
+  text-decoration: dimgray;
+  text-decoration-line: underline;
+  text-transform: lowercase;
+ 
+  }
+
+
+  .user-view span {
+    font-weight: bold;
+    font-size: large;
+  }
+
+  
+
+
   

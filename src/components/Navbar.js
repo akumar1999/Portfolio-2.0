@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import im1 from '../assets/technical.png';
-import im2 from '../assets/AMIT.jpg';
+import im1 from '../assets/sidenav.jpg';
+import im2 from '../assets/amitavatar.jpg';
 
 export class Navbar extends Component {
     componentDidMount() {
@@ -46,7 +46,6 @@ export class Navbar extends Component {
             </ul>
           </div>
         </nav>
-
         <ul id="slide-out" className="sidenav">
           <li>
             <div className="user-view">
@@ -56,14 +55,20 @@ export class Navbar extends Component {
               <a href="#user">
                 <img className="circle" src={im2} />
               </a>
-              <a href="#name">
-                <span className="white-text name">Amit Kumar</span>
+             
+              <a className ="comp" href="https://www.linkedin.com/in/akumar1999m/"
+               target="_blank">
+                <span className="black-text name ">Amit Kumar</span>
               </a>
-              <a href="mailto:akumar1999m@gmail.com">
-                <span className="white-text email">akumar1999m@gmail.com</span>
+              <a className ="comp"
+               href="mailto:akumar1999m@gmail.com"
+              target="_blank">
+                <span className="black-text email ">akumar1999m@gmail.com</span>
               </a>
-            </div>
+              </div>
+    
           </li>
+          <div className="list">
           <li>
             <a href="/">Home</a>
           </li>
@@ -76,6 +81,7 @@ export class Navbar extends Component {
           <li>
             <a href="/blog">Blog</a>
           </li>
+          </div>
         </ul>
       </div>
     );

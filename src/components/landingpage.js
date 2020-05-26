@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./landingpage.css";
+import im2 from '../assets/amitavatar.jpg'
 
 export class landingpage extends Component {
 
@@ -9,9 +10,12 @@ export class landingpage extends Component {
     return (
       <div>
         <div class="container main-info-section">
-          <div class="text">
+       
+          <div class="text">     
+  
             <h1>
               <div class="hello">
+                
                 <span class="name">H</span>
                 <span class="m-left">e</span>
                 <span class="m-left">l</span>

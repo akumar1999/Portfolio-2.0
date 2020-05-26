@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import SingleProject from './projectcard/singleproject'
+import AllProject from './projectcard/allproject'
 
 export class projects extends Component {
     render() {
         return (
             <div>
-                <SingleProject/>
+                <AllProject />
             </div>
         )
     }

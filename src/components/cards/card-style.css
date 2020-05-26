@@ -84,3 +84,54 @@ img {
     padding-right: 10px;
 }
 
+
+
+@media(min-width: 1200px),
+(min-device-width: 1025px) and (max-device-width: 1300px) {
+    .card {
+        width: 25rem;
+        height: 35rem;
+    }
+  } 
+
+
+@media(max-width: 900px),
+(min-device-width: 768px) and (max-device-width: 1024px) {
+
+    .card {
+        justify-content: space-between;
+        justify-self: center;
+        flex-wrap: wrap;
+        width: 17rem;
+        height: 35rem;
+    }
+    .container-chip {
+        padding-right: 5px;
+    }
+
+    .chip {
+        max-width: 45%;
+        margin-top: 10px;
+        font-size: 10px;
+     }
+
+     .card-text {
+        font-size: 0.9rem;
+        padding: 0.4rem 0.8rem;
+    }
+     
+    } 
+
+
+    @media(max-width: 500px) {
+
+        .card {
+            justify-content: space-between;
+            justify-self: center;
+            flex-wrap: wrap;
+            width: 23rem;
+        }
+        } 
+    
+
+

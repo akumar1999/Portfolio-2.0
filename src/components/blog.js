@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import './blog.css'
-import Interest from "./interest";
-import Background from "./background";
 import Cards from './cards/cards'
 
 

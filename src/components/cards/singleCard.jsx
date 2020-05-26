@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import './card-style.css'
-import img3 from "../../assets/AMIT.jpg";
-
 
 
 export default class CardSingle extends Component {
@@ -34,7 +32,7 @@ export default class CardSingle extends Component {
                         <p className="card-text text-secondary">
                             {this.props.paragraph}
                         </p>
-                        <a href="#" className="btn btn-outline-success">
+                        <a href="/resume" className="btn btn-outline-success">
                             {this.props.button}
                         </a>
 

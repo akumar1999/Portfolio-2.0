@@ -59,13 +59,15 @@
   }
   
   .hello {
-    border-style: solid;
+    border-style: groove;
     border-color: whitesmoke;
     border-radius: 10px;
     width: fit-content;
     background-color: white;
 
   }
+
+
 
   .information {
     letter-spacing: 1px;

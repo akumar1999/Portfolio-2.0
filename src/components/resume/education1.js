@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import {HashLink as Link} from 'react-router-hash-link'
 
 export class Education extends Component {
     render() {
@@ -19,7 +18,7 @@ export class Education extends Component {
                               <tr>
                                   <td>Web Development</td>
                                   <td>Jan 2018</td>
-                                  <td><Link to="#" className="btn blue lighten-2">View</Link></td>
+                                  <td><a to="#" className="btn blue lighten-2">View</a></td>
                               </tr>
                           </tbody>
                       </table>

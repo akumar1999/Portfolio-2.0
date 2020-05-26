@@ -13,14 +13,14 @@ export class Skills extends Component {
                         <div className="row mt-top">
                             <p>HTML5 & CSS</p>
                             <div className="progress grey lighten-1">
-                                <div className="determinate blue" style={{width: '89%'}}/>
+                                <div className="determinate blue" style={{width: '95%'}}/>
                             </div>
                         </div>
 
                         <div className="row mt-top">
                             <p>JavaScript</p>
                             <div className="progress grey lighten-1">
-                                <div className="determinate blue" style={{width: '89%'}}/>
+                                <div className="determinate blue" style={{width: '75%'}}/>
                             </div>
                         </div>
 
@@ -34,14 +34,21 @@ export class Skills extends Component {
                         <div className="row mt-top">
                             <p>Python</p>
                             <div className="progress grey lighten-1">
-                                <div className="determinate blue" style={{width: '89%'}}/>
+                                <div className="determinate blue" style={{width: '80%'}}/>
+                            </div>
+                        </div>
+
+                        <div className="row mt-top">
+                            <p>MySQL</p>
+                            <div className="progress grey lighten-1">
+                                <div className="determinate blue" style={{width: '80%'}}/>
                             </div>
                         </div>
 
                         <div className="row mt-top">
                             <p>C++</p>
                             <div className="progress grey lighten-1">
-                                <div className="determinate blue" style={{width: '89%'}}/>
+                                <div className="determinate blue" style={{width: '80%'}}/>
                             </div>
                         </div>
                         </div>

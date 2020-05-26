@@ -17,7 +17,7 @@
 
   .content-profile {
     justify-content: start;
-    padding-left: 0rem !important;
+    padding-left: 15px;
   }
 
   .card-main {
@@ -32,9 +32,13 @@
     height: 40%;
     width: 100%;
     padding: 0rem 0rem !important;
-    padding-left: 10px !important;
+   
   }
 
   .container3 {
     padding: 10px;
+  }
+
+  .resume-info h6{
+    text-transform: uppercase ;
   }

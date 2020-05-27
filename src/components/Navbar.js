@@ -77,18 +77,14 @@ export class Navbar extends Component {
     
           </li>
           <div className="list">
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/resume">Resume</Link>
-          </li>
-          <li>
-            <Link to="/projects">Projects</Link>
-          </li>
-          <li>
-            <Link to="/blog">Blog</Link>
-          </li>
+          <li><Link to="/"> Home</Link> </li>
+               
+              
+               <li> <Link to="/resume">Resume</Link></li>
+                 
+                 <li><Link to="/projects">Projects</Link></li>
+   
+                 <li><Link to="/blog">Blog</Link></li>
           </div>
         </ul>
        
@@ -102,17 +98,15 @@ export class Navbar extends Component {
           <Route path="/resume">
             <Resume />
           </Route>
-          <Route path="projects">
+          <Route path="/projects">
             <Projects />
           </Route>
-          <Route path="blog">
+          <Route path="/blog">
             <Blog />
           </Route>
         </Switch>
 
       </div>
-
-        
 
         </Router>
       

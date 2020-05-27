@@ -38,7 +38,7 @@ export class Resume extends Component {
               <Experience />
               <Skills />
               <Education />
-              <Portfolios />
+              
             </div>
           </div>
         </div>

@@ -1,7 +1,11 @@
 import React, { Component } from "react";
 import im1 from '../assets/sidenav.jpg';
 import im2 from '../assets/amitavatar.jpg';
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import Landingpage from "./landingpage";
+import Resume from './resume'
+import Blog from "./blog";
+import Projects from './projects'
 
 export class Navbar extends Component {
     componentDidMount() {
@@ -14,17 +18,17 @@ export class Navbar extends Component {
   render() {
     return (
      
-     
+      <Router> 
       <div>
         <nav>
-        <Router> 
+        
           <div className="nav-wrapper">
             <a href="#" data-target="slide-out" className="sidenav-trigger">
               <i className="material-icons">menu</i>
             </a>
          
-            <a class="brand-logo">
-              <Link to="/">
+            <Link to="/" class="brand-logo">
+             
               <img
                 class="img-responsive"
                 width="100px"
@@ -33,27 +37,22 @@ export class Navbar extends Component {
                 alt="favicon-removebg-preview"
                 border="0"
               />
-              </Link>
-            </a>
+              
+            </Link>
             
             <ul id="nav-mobile" className="right hide-on-med-and-down">
               
-            <li><a href="/"> Home</a> </li>
+            <li><Link to="/"> Home</Link> </li>
                
               
-            <li> <a href="/resume">Resume</a></li>
+            <li> <Link to="/resume">Resume</Link></li>
               
-              <li>
-               <a href="/background">
-                 Projects
-                 </a>
-              </li>
-              <li>
-              <a href="/blog">Blog</a> 
-              </li>
+              <li><Link to="/projects">Projects</Link></li>
+
+              <li><Link to="/blog">Blog</Link></li>
             </ul>
           </div>
-          </Router>
+          
         </nav>
         <ul id="slide-out" className="sidenav">
           <li>
@@ -74,26 +73,48 @@ export class Navbar extends Component {
               target="_blank">
                 <span className="black-text email ">akumar1999m@gmail.com</span>
               </a>
-              </div>
+              </div>  
     
           </li>
           <div className="list">
           <li>
-            <a href="/">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="/resume">Resume</a>
+            <Link to="/resume">Resume</Link>
           </li>
           <li>
-            <a href="/projects">Projects</a>
+            <Link to="/projects">Projects</Link>
           </li>
           <li>
-            <a href="/blog">Blog</a>
+            <Link to="/blog">Blog</Link>
           </li>
           </div>
         </ul>
        
         </div>
+        <div>
+
+        <Switch>
+          <Route exact path="/">
+            <Landingpage />
+          </Route>
+          <Route path="/resume">
+            <Resume />
+          </Route>
+          <Route path="projects">
+            <Projects />
+          </Route>
+          <Route path="blog">
+            <Blog />
+          </Route>
+        </Switch>
+
+      </div>
+
+        
+
+        </Router>
       
     );
   }

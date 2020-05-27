@@ -13,15 +13,12 @@ export class Blog extends Component {
         <div class="nav-content">
           <ul class="tabs tabs-transparent">
             <li class="tab">
-              <Link to="/interest">Interests</Link>
+              <a to="/interest">Interests</a>
             </li>
             <li class="tab">
-              <Link to="/background">
+              <a to="/background">
                 Background
-              </Link>
-            </li>
-            <li class="tab"> 
-            <Link to="/resume">Resume</Link>
+              </a>
             </li>
           </ul>
         </div>

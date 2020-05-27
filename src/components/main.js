@@ -1,25 +1,3 @@
-import React from 'react';
-import { Switch, Route, BrowserRouter as Router } from 'react-router-dom';
-import Landingpage from './landingpage';
-import Blog from './blog';
-import Projects from './projects';
-import Resume from './resume';
-import Interest from './interest';
-import Background from './background';
-
-const Main = () => (
-  <Router>
-  <Switch>
-    <Route exact path="/" component={Landingpage}/>
-    <Route  path="/projects" component={Projects} />
-    <Route  path="/resume" component={Resume} />
-    <Route  path="/blog" component={Blog}/>    
-    <Route  path="/interest" component={Interest}/>
-    <Route  path="/background" component={Background}/>
-  </Switch>
-  </Router>
-)
-
 // const TypeWriter = function(txtElement, words, wait = 3000) {
 //   this.txtElement = txtElement;
 //   this.words = words;
@@ -143,6 +121,3 @@ class TypeWriter {
 // }
 
 
-
-
-export default Main;

@@ -12,10 +12,7 @@ export default class App extends Component {
     <div>
       <div>
       <Navbar />
-      </div>
-      <div>
-      <Main />
-        </div>         
+      </div>         
     </div>
   );
 }

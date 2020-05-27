@@ -1,31 +1,35 @@
 import React, { Component } from "react";
 import './blog.css'
 import Cards from './cards/cards'
+import {BrowserRouter as Router, Link} from 'react-router-dom';
 
 
-export class blog extends Component {
+export class Blog extends Component {
 
   render() {
     return (
       <div>
-      
+      <Router>
         <div class="nav-content">
           <ul class="tabs tabs-transparent">
             <li class="tab">
-              <a  href="/Interest">Interests</a>
+              <Link to="/interest">Interests</Link>
             </li>
             <li class="tab">
-              <a href="Background">
+              <Link to="/background">
                 Background
-              </a>
+              </Link>
+            </li>
+            <li class="tab"> 
+            <Link to="/resume">Resume</Link>
             </li>
           </ul>
         </div>
         <Cards />
-
+        </Router>
       </div>
     );
   }
 }
 
-export default blog;
+export default Blog;

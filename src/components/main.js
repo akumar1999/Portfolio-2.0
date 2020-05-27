@@ -1,24 +1,21 @@
 import React from 'react';
 import { Switch, Route, BrowserRouter as Router } from 'react-router-dom';
-
 import Landingpage from './landingpage';
-import blog from './blog';
-import projects from './projects';
-import resume from './resume';
+import Blog from './blog';
+import Projects from './projects';
+import Resume from './resume';
 import Interest from './interest';
 import Background from './background';
 
 const Main = () => (
   <Router>
   <Switch>
-    <Route path="/">
-    <Landingpage/>
-    </Route>
-    <Route path="/blog" component={blog} />
-    <Route path="/projects" component={projects} />
-    <Route path="/resume" component={resume} />
-    <Route path="/interest" component={Interest}/>
-    <Route path="/background" component={Background}/>
+    <Route exact path="/" component={Landingpage}/>
+    <Route  path="/projects" component={Projects} />
+    <Route  path="/resume" component={Resume} />
+    <Route  path="/blog" component={Blog}/>    
+    <Route  path="/interest" component={Interest}/>
+    <Route  path="/background" component={Background}/>
   </Switch>
   </Router>
 )
@@ -133,17 +130,17 @@ class TypeWriter {
 }
 
 
-// Init On DOM Load
-document.addEventListener('DOMContentLoaded', init);
+// // Init On DOM Load
+// document.addEventListener('DOMContentLoaded', init);
 
-// Init App
-function init() {
-  const txtElement = document.querySelector('.txt-type');
-  const words = JSON.parse(txtElement.getAttribute('data-words'));
-  const wait = txtElement.getAttribute('data-wait');
-  // Init TypeWriter
-  new TypeWriter(txtElement, words, wait);
-}
+// // Init App
+// function init() {
+//   const txtElement = document.querySelector('.txt-type');
+//   const words = JSON.parse(txtElement.getAttribute('data-words'));
+//   const wait = txtElement.getAttribute('data-wait');
+//   // Init TypeWriter
+//   new TypeWriter(txtElement, words, wait);
+// }
 
 
 

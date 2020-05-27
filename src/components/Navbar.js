@@ -13,15 +13,18 @@ export class Navbar extends Component {
       }
   render() {
     return (
-      <Router>
+     
+     
       <div>
         <nav>
+        <Router> 
           <div className="nav-wrapper">
             <a href="#" data-target="slide-out" className="sidenav-trigger">
               <i className="material-icons">menu</i>
             </a>
-
-            <Link to="/" class="brand-logo">
+         
+            <a class="brand-logo">
+              <Link to="/">
               <img
                 class="img-responsive"
                 width="100px"
@@ -30,23 +33,27 @@ export class Navbar extends Component {
                 alt="favicon-removebg-preview"
                 border="0"
               />
-            </Link>
-
+              </Link>
+            </a>
+            
             <ul id="nav-mobile" className="right hide-on-med-and-down">
+              
+            <li><a href="/"> Home</a> </li>
+               
+              
+            <li> <a href="/resume">Resume</a></li>
+              
               <li>
-                <Link to="/">Home</Link>
+               <a href="/background">
+                 Projects
+                 </a>
               </li>
               <li>
-                <a href="/resume">Resume</a>
-              </li>
-              <li>
-                <a href="/projects">Projects</a>
-              </li>
-              <li>
-                <a href="/blog">Blog</a>
+              <a href="/blog">Blog</a> 
               </li>
             </ul>
           </div>
+          </Router>
         </nav>
         <ul id="slide-out" className="sidenav">
           <li>
@@ -85,8 +92,9 @@ export class Navbar extends Component {
           </li>
           </div>
         </ul>
-      </div>
-      </Router>
+       
+        </div>
+      
     );
   }
 }

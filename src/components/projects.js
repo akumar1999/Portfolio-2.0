@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import AllProject from './projectcard/allproject'
 
-export class projects extends Component {
+export class Projects extends Component {
     render() {
         return (
             <div>
@@ -11,4 +11,4 @@ export class projects extends Component {
     }
 }
 
-export default projects
+export default Projects

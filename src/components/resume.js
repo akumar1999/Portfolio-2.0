@@ -9,7 +9,7 @@ import Experience from "./resume/experience1";
 import Info from './resume/Info';
 import im2 from "../assets/technical.png";
 
-export class resume extends Component {
+export class Resume extends Component {
   render() {
     return (
       <section>
@@ -47,4 +47,4 @@ export class resume extends Component {
   }
 }
 
-export default resume;
+export default Resume;

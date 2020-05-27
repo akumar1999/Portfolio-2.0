@@ -1,7 +1,7 @@
 import React from 'react';
 import { Switch, Route, BrowserRouter as Router } from 'react-router-dom';
 
-import landingpage from './landingpage';
+import Landingpage from './landingpage';
 import blog from './blog';
 import projects from './projects';
 import resume from './resume';
@@ -11,7 +11,9 @@ import Background from './background';
 const Main = () => (
   <Router>
   <Switch>
-    <Route exact path="/" component={landingpage} />
+    <Route path="/">
+    <Landingpage/>
+    </Route>
     <Route path="/blog" component={blog} />
     <Route path="/projects" component={projects} />
     <Route path="/resume" component={resume} />

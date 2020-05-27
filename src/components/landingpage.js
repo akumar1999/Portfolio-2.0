@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./landingpage.css";
 import im2 from '../assets/amitavatar.jpg'
 
-export class landingpage extends Component {
+export class Landingpage extends Component {
 
 
   render() {
@@ -107,4 +107,4 @@ export class landingpage extends Component {
   }
 }
 
-export default landingpage;
+export default Landingpage;

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import im1 from '../assets/sidenav.jpg';
 import im2 from '../assets/amitavatar.jpg';
+import { BrowserRouter as Router, Link } from "react-router-dom";
 
 export class Navbar extends Component {
     componentDidMount() {
@@ -12,6 +13,7 @@ export class Navbar extends Component {
       }
   render() {
     return (
+      <Router>
       <div>
         <nav>
           <div className="nav-wrapper">
@@ -19,7 +21,7 @@ export class Navbar extends Component {
               <i className="material-icons">menu</i>
             </a>
 
-            <a href="/" class="brand-logo">
+            <Link to="/" class="brand-logo">
               <img
                 class="img-responsive"
                 width="100px"
@@ -28,11 +30,11 @@ export class Navbar extends Component {
                 alt="favicon-removebg-preview"
                 border="0"
               />
-            </a>
+            </Link>
 
             <ul id="nav-mobile" className="right hide-on-med-and-down">
               <li>
-                <a href="/">Home</a>
+                <Link to="/">Home</Link>
               </li>
               <li>
                 <a href="/resume">Resume</a>
@@ -84,6 +86,7 @@ export class Navbar extends Component {
           </div>
         </ul>
       </div>
+      </Router>
     );
   }
 }

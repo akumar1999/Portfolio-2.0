@@ -20,9 +20,6 @@ export class Blog extends Component {
                 Background
               </Link>
             </li>
-            <li class="tab"> 
-            <Link to="/resume">Resume</Link>
-            </li>
           </ul>
         </div>
         <Cards />

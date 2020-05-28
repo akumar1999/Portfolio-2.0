@@ -22,16 +22,18 @@
 
   .card-main {
     width: 100% !important;
-    height: 50%;
+    height: 100% !important;
     
   }
 
 
 
+
+
   .card-profile {
-    height: 40%;
     width: 100%;
     padding: 0rem 0rem !important;
+    height: 100% !important;
    
   }
 
@@ -41,4 +43,17 @@
 
   .resume-info h6{
     text-transform: uppercase ;
+  }
+
+  .resume-info h6{
+      font-weight: bold;
+  }
+
+  .resume-info strong {
+    font-weight: bold;
+    color:#003035;
+  }
+
+  .striped td{
+    font-weight: bold;
   }

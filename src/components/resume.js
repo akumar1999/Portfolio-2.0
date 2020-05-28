@@ -3,11 +3,12 @@ import "./resume.css";
 import Profile from "./resume/profile";
 import About from "./resume/about";
 import Skills from "./resume/skills1";
-import Education from "./resume/education1";
-import Portfolios from "./resume/portfolio";
+import  { Achivements } from "./resume/Achivements";
+import  { ResumeProject } from "./resume/ResumeProject";
 import Experience from "./resume/experience1";
 import Info from './resume/Info';
 import im2 from "../assets/technical.png";
+import Activities from "./resume/Activities";
 
 export class Resume extends Component {
   render() {
@@ -37,8 +38,9 @@ export class Resume extends Component {
               <About />
               <Experience />
               <Skills />
-              <Education />
-              
+              <ResumeProject />
+              <Activities/>
+              <Achivements/>
             </div>
           </div>
         </div>

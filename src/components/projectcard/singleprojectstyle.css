@@ -1,6 +1,6 @@
 .new-card1 {
     margin-top: 20px;
-    max-height: 27rem;
+    max-height: 30rem;
     width: 25rem;
 }
 
@@ -65,7 +65,7 @@
 }
 
 
-/* @media(min-width: 1200px),
+ @media(min-width: 1200px),
 (min-device-width: 1025px) and (max-device-width: 1300px) {
     .new-card1 {
         width: 25rem;
@@ -86,11 +86,11 @@
     }
 
     .card-content .card-title {
-        font-size: 0.7rem;
+        font-size: 1rem;
         font-weight: bold;
     }
     .card-content p {
-        font-size: 10px;
+        font-size: 12px;
         text-align: center;
     }
 
@@ -135,7 +135,7 @@
         }
         } 
     
- */
+ 
 
 
 

@@ -1,16 +1,17 @@
 import React, { Component } from 'react'
 
+
 export class Achivements extends Component {
     render() {
         return (
             <div>
               <div className="card card-main">
                   <div className="card-content">
-                      <h5><strong style={{fontWeight:'bold', textTransform:'uppercase'}}>EDUCATIONS</strong></h5>
+                      <h5><strong style={{fontWeight:'bold', textTransform:'uppercase'}}><i class="fas fa-trophy"></i> Achivements</strong></h5>
                       <table className="striped">
                           <tbody>
                               <tr style={{fontSize:20}}>
-                                  <th>Achivements</th>
+                                  <th></th>
                                   <th>Date</th>
                               </tr>
                               <tr>

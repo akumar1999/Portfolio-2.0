@@ -15,7 +15,7 @@ export class Experience extends Component {
                   paddingLeft: 20,
                 }}
               >
-                Experience
+               <i class="fas fa-user-edit"></i> Experience
               </strong>
             </h5>
             <SingleExperience

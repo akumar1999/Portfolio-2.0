@@ -10,7 +10,7 @@ export class Activities extends Component {
               <strong
                 style={{ fontWeight: "bold", textTransform: "uppercase" }}
               >
-                Activities
+               <i class="fas fa-running"></i> Activities
               </strong>
             </h5>
 

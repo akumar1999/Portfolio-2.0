@@ -2,29 +2,23 @@ import React, { Component } from "react";
 import './blog.css'
 import Cards from './cards/cards'
 import {BrowserRouter as Router, Link} from 'react-router-dom';
-
+import {motion} from 'framer-motion'
+import BlogNavbar from "./blognavbar";
 
 export class Blog extends Component {
 
   render() {
     return (
-      <div>
-      <Router>
-        <div class="nav-content">
-          <ul class="tabs tabs-transparent">
-            <li class="tab">
-              <Link to="/interest">Interests</Link>
-            </li>
-            <li class="tab">
-              <Link to="/background">
-                Background
-              </Link>
-            </li>
-          </ul>
-        </div>
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+        >
+       <div>  
+         <BlogNavbar />
+       </div>
         <Cards />
-        </Router>
-      </div>
+      </motion.div>
     );
   }
 }

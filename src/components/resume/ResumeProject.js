@@ -15,7 +15,7 @@ export class ResumeProject extends Component {
                   paddingLeft: 20,
                 }}
               >
-                Projects
+                <i class="fas fa-server"></i> Projects
               </strong>
             </h5>
             <SingleProject

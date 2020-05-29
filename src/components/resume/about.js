@@ -7,7 +7,7 @@ export class About extends Component {
         <div className="card card-main">
           <div className="card-content">
             <h5 className="mt-bottom">
-              <strong style={{ fontWeight: "bold" }}>ABOUT ME</strong>
+              <strong style={{ fontWeight: "bold" }}><i class="fas fa-user"></i> ABOUT ME</strong>
             </h5>
             <h5
               className="black-text"
@@ -42,7 +42,7 @@ export class About extends Component {
             <hr style={{ borderTop: "1px solid 	#A9A9A9", width: "100%" }} />
 
             <h5 className="mt-bottom">
-              <strong style={{ fontWeight: "bold" }}>EDUCATION</strong>
+              <strong style={{ fontWeight: "bold" }}><i class="fas fa-university"></i> EDUCATION</strong>
             </h5>
 
             <div className="row">

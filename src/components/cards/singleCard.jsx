@@ -32,7 +32,7 @@ export default class CardSingle extends Component {
                         <p className="card-text text-secondary">
                             {this.props.paragraph}
                         </p>
-                        <a href="/resume" className="btn btn-outline-success">
+                        <a href="/resume" className="btn btn-outline-success" style={{fontWeight:'bold'}}>
                             {this.props.button}
                         </a>
 

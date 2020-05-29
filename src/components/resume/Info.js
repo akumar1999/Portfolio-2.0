@@ -17,8 +17,8 @@ export class Info extends Component {
                             <strong>Visionary<br/></strong>
                             <hr style={{ borderTop: '1px solid 	#A9A9A9', width: '80%' }} />
                             <h6>Languages:</h6>
-                            <strong>Hindi(Native/Mother tongue)<br/></strong>
-                            <strong>English(Advanced/2nd Language)<br/></strong>
+                            <strong>Hindi (Native/Mother tongue)<br/></strong>
+                            <strong>English (Advanced/2nd Language)<br/></strong>
                             <strong>French (Beginner)<br/></strong>
                             <hr style={{ borderTop: '1px solid 	#A9A9A9', width: '80%' }} />
                             <h6>Certification:</h6>

@@ -7,7 +7,7 @@ export class Skills extends Component {
                 <div className="card card-main">
                     <div className="card-content">
                         <h5>
-                        <strong style={{fontWeight:'bold', textTransform:'uppercase'}}>Skills</strong>
+                        <strong style={{fontWeight:'bold', textTransform:'uppercase'}}> <i class="fas fa-pencil-ruler"></i> Skills</strong>
                         </h5>
                         <div style={{paddingLeft:10}}>
                         <div className="row mt-top">

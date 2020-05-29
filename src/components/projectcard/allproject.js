@@ -9,7 +9,7 @@ import img4 from '../../assets/covid.png';
 export default class AllProject extends Component {
   render() {
     return (
-      <div className="container">
+      <div className="container3">
         <div className="container-fluid d-flex justify-content-center">
           <div className="row">
             <div className="col-md-4">
@@ -20,7 +20,8 @@ export default class AllProject extends Component {
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
                 printer took a galleye release 
                 of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-                button="GITHUB"
+                url={"https://github.com/akumar1999/AK-Portfolio"}
+                button={"GITHUB"}
                 chipimg1={URL=('https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80')}
                 chip1="New York"
                 chipimg2={URL=('https://images.unsplash.com/photo-1526772662000-3f88f10405ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80')}
@@ -37,7 +38,8 @@ export default class AllProject extends Component {
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
                 printer took a galleye release 
                 of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-                button="GITHUB"
+                url={"https://github.com/akumar1999/Foodapp-pythonGUI"}
+                button={"GITHUB"}
                 chipimg1={URL=('https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80')}
                 chip1="New York"
                 chipimg2={URL=('https://images.unsplash.com/photo-1526772662000-3f88f10405ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80')}
@@ -55,7 +57,8 @@ export default class AllProject extends Component {
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
                 printer took a galleye release 
                 of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-                button="GITHUB"
+                url={"https://github.com/hoyinho/Foodini"}
+                button={"GITHUB"}
                 chipimg1={URL=('https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80')}
                 chip1="New York"
                 chipimg2={URL=('https://images.unsplash.com/photo-1526772662000-3f88f10405ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80')}
@@ -78,7 +81,8 @@ export default class AllProject extends Component {
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
                 printer took a galleye release 
                 of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-                button="GITHUB"
+                url={"https://github.com/akumar1999/covidtracker"}
+                button={"GITHUB"}
                 chipimg1={URL=('https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80')}
                 chip1="New York"
                 chipimg2={URL=('https://images.unsplash.com/photo-1526772662000-3f88f10405ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80')}
@@ -90,12 +94,13 @@ export default class AllProject extends Component {
             <div className="col-md-4">
             <SingleProject 
                 image={URL=('https://images.unsplash.com/photo-1560472355-109703aa3edc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80')}
-                title="WordPress Websites"
+                title="Portfolio 2.0"
                 content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
                 printer took a galleye release 
                 of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-                button="GITHUB"
+                url={"https://github.com/akumar1999/Portfolio-2.0"}
+                button={"GITHUB"}
                 chipimg1={URL=('https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80')}
                 chip1="New York"
                 chipimg2={URL=('https://images.unsplash.com/photo-1526772662000-3f88f10405ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80')}
@@ -113,7 +118,8 @@ export default class AllProject extends Component {
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
                 printer took a galleye release 
                 of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-                button="GITHUB"
+                url={"https://github.com/akumar1999/CHATBOT"}
+                button={"GITHUB"}
                 chipimg1={URL=('https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80')}
                 chip1="New York"
                 chipimg2={URL=('https://images.unsplash.com/photo-1526772662000-3f88f10405ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80')}

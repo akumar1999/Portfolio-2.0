@@ -20,12 +20,16 @@ export class SingleProject extends Component {
               </span>
               <p>{this.props.content}</p>
             </div>
-            <div className=" btn btn1 btn-outline-success">
-              <a href="#">
+            
+              <a style={{outline:'none', boxShadow:'none', fontWeight:'bold'}}
+              className=" btn btn1 btn-outline-success"
+              rel="noopener noreferrer"
+                    href={this.props.url}
+                    target="_blank">
                 <i class="fab fa-github"></i>
                 {this.props.button}
               </a>
-            </div>
+          
             <div className="card-reveal">
               <span className="card-title grey-text text-darken-4">
                 <i className="material-icons right">close</i>

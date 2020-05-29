@@ -1,21 +1,35 @@
 import React, { Component } from "react";
 import "./landingpage.css";
-import im2 from '../assets/amitavatar.jpg'
+import im2 from "../assets/amitavatar.jpg";
+import { AnimationPresence, motion } from "framer-motion";
+
+
+const PageTransition = {    
+  in: {
+    opacity: 1,
+    y:0
+  },
+  out: {
+    opacity: 0,
+    y: "-100%"
+  }    
+};
 
 export class Landingpage extends Component {
 
 
   render() {
-
     return (
-      <div>
+      <motion.div
+        initial="out"
+        animate="in"
+        exit="out"
+        variants={PageTransition}
+      >
         <div class="container main-info-section">
-       
-          <div class="text">     
-  
+          <div class="text">
             <h1>
               <div class="hello">
-                
                 <span class="name">H</span>
                 <span class="m-left">e</span>
                 <span class="m-left">l</span>
@@ -26,11 +40,17 @@ export class Landingpage extends Component {
               <span>I</span>
               <span class="m-left">'</span>
               <span class="m-left">m </span>
-              <span > </span>
+              <span> </span>
               <span class="name">A</span>
               <span class="m-left">m</span>
               <span class="m-left">i</span>
               <span class="m-left">t</span>
+              <span> </span>
+              <span class="name">K</span>
+              <span class="m-left">u</span>
+              <span class="m-left">m</span>
+              <span class="m-left">a</span>
+              <span class="m-left">r</span>
               <br />
               <span class="name">A</span>
               <span class="m-left">s</span>
@@ -59,7 +79,7 @@ export class Landingpage extends Component {
               </p>
             </div>
 
-            <div class="media">
+            <div class="media" style={{outline:'none', boxShadow:'none'}}>
               <ul>
                 <li>
                   <a
@@ -85,7 +105,6 @@ export class Landingpage extends Component {
                     href="https://github.com/akumar1999"
                     target="_blank"
                   >
-                    {" "}
                     <i class="fab fa-github"></i>
                   </a>
                 </li>
@@ -102,7 +121,7 @@ export class Landingpage extends Component {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
     );
   }
 }

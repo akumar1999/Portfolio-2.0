@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./landingpage.css";
 import im2 from "../assets/amitavatar.jpg";
 import { AnimationPresence, motion } from "framer-motion";
-
+import  Animation  from './main';
 
 const PageTransition = {    
   in: {
@@ -15,10 +15,10 @@ const PageTransition = {
   }    
 };
 
+
 export class Landingpage extends Component {
-
-
   render() {
+
     return (
       <motion.div
         initial="out"
@@ -65,7 +65,7 @@ export class Landingpage extends Component {
                 class="txt-type"
                 data-wait="3000"
                 data-words='["Software Developer", "Web Designer", "Web Developer", "App Developer", "Photographer", "Videographer"]'
-              ></span>
+    ></span>
             </h1>
             <h2 class="tech">
               Python| C++ | HTML/CSS | Bootstrap | JavaScript | React | React
@@ -125,5 +125,6 @@ export class Landingpage extends Component {
     );
   }
 }
+
 
 export default Landingpage;

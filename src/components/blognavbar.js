@@ -7,7 +7,8 @@ import Background from './background';
 
 export class BlogNavbar extends Component {
 
-  render() {
+  render()
+   {
     return (
       <Router>
         <div>

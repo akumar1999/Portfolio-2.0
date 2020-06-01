@@ -7,7 +7,7 @@ import { Achivements } from "./resume/Achivements";
 import { ResumeProject } from "./resume/ResumeProject";
 import Experience from "./resume/experience1";
 import Info from "./resume/Info";
-import im2 from "../assets/technical.png";
+import im2 from "../assets/AmitK_Resume.pdf";
 import Activities from "./resume/Activities";
 import {motion} from 'framer-motion'
 
